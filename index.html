@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Latin Boy Kodi</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <style>
+        :root {
+            --primary-color: #1d1f21;
+            --accent-color: #170d2b;
+            --text-color: #ffffff;
+            --background-glass: rgba(255, 255, 255, 0.1);
+            --border-glass: rgba(255, 255, 255, 0.3);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: var(--text-color);
+            background: var(--primary-color);
+            overflow-x: hidden;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 190px; /* Menú un poco más estrecho */
+            background: var(--background-glass);
+            backdrop-filter: blur(10px);
+            border-right: 1px solid var(--border-glass);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            z-index: 1000;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            border-radius: 0 10px 10px 0;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin: 1rem 0;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        nav.hidden {
+            transform: translateX(-235px); /* Ajustado a 235px */
+        }
+
+        #menu-toggle {
+            display: none;
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            font-size: 1.5rem;
+            color: var(--text-color);
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        main {
+            margin-left: 235px; /* Ajustado a 235px */
+            padding: 2rem;
+            transition: margin-left 0.3s ease-in-out;
+        }
+
+        .mobile main {
+            margin-left: 0;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: white;
+            background-position: center;
+            background-size: cover;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://raw.githubusercontent.com/latinboykodi/wizard/refs/heads/master/Build%20Artwork/screamshot%20AF.jpg') center/cover no-repeat;
+            filter: blur(2px); /* Aquí se aplica el blur a la imagen de fondo */
+            z-index: -1;
+        }
+
+        header .glass-card {
+            background: var(--background-glass);
+            backdrop-filter: blur(15px);
+            border: 1px solid var(--border-glass);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        header .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid var(--text-color);
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .changelog ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        .changelog li {
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: var(--background-glass);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-glass);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .changelog li i {
+            color: var(--accent-color);
+            margin-right: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: var(--background-glass);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--border-glass);
+            color: var(--text-color);
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            #menu-toggle {
+                display: block;
+            }
+
+            nav {
+                transform: translateX(-235px); /* Ajustado a 235px */
+            }
+
+            nav.hidden {
+                transform: translateX(0);
+            }
+
+            main {
+                margin-left: 0;
+                padding: 1rem;
+            }
+
+            header {
+                height: 80vh;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <i id="menu-toggle" class="fas fa-bars"></i>
+    <nav id="sidebar">
+        <a href="#home">Fuente</a>
+        <a href="#captures">Builds</a>
+        <a href="#changes">Release</a>
+    </nav>
+
+    <main>
+        <header id="home">
+            <div class="glass-card" data-aos="fade-down">
+                <img src="https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/icon.png" alt="Foto de perfil" class="profile-pic">
+                <h1>Latin Boy Kodi</h1>
+                <p>Descubre la mejor experiencia en Kodi
+
+
+                </p>
+               
+                <center>
+                    <p style="display: inline; margin: 0;">WIZARD:</p>
+                    <a href="plugin.program.latinboy-v1.0.0.zip" style="display: inline; color: rgb(24, 14, 41); text-decoration: none; margin: 0;">plugin.program.latinboy-v1.0.0.zip  </a>
+                    <span style="display: inline; margin: 0; font-weight: bold; color: rgb(255, 255, 255);">|</span>
+                    <p style="display: inline; margin: 0;">REPOSITORIO</p>
+                    <p style="display: inline; margin: 0; font-style: italic;">Muy Pronto...</p>
+                  </center>
+                  
+
+            </div>
+        </header>
+
+        <section id="captures" data-aos="fade-up">
+            <h2>Build AF v1.0.0</h2>
+            <p>Es un build basado en el skin  <a href="https://forum.kodi.tv/showthread.php?tid=373859" style="display: inline; color: rgb(182, 2, 101); text-decoration: none; margin: 0;">ARCTIC FUSE </a> con principal add-on Balando en las capturas puede encontrar los demas add-ons incluidos en el build</p>
+            <ul>
+                <li>Autoplay activado en Balandro, como idioma principal LATINO</li>
+              </ul>
+            <div class="gallery">
+                <a href="https://github.com/latinboykodi/latinboykodi.github.io/blob/main/screamshot%20AF.jpg?raw=true" class="glightbox"><img src="https://github.com/latinboykodi/latinboykodi.github.io/blob/main/screamshot%20AF.jpg?raw=true" alt="Captura 1"></a>
+                <a href="https://github.com/latinboykodi/latinboykodi.github.io/blob/main/Captura%20de%20pantalla%20AF02.png?raw=true" class="glightbox"><img src="https://github.com/latinboykodi/latinboykodi.github.io/blob/main/Captura%20de%20pantalla%20AF02.png?raw=true" alt="Captura 2"></a>
+                <a href="https://github.com/latinboykodi/latinboykodi.github.io/blob/main/Captura%20de%20pantalla%20AF03.png?raw=true" class="glightbox"><img src="https://github.com/latinboykodi/latinboykodi.github.io/blob/main/Captura%20de%20pantalla%20AF03.png?raw=true" alt="Captura 3"></a>
+            </div>
+
+        </section>
+<!--
+        <section id="changes" class="changelog" data-aos="fade-up">
+            <h2>Release</h2>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Interfaz modernizada y optimizada para dispositivos móviles.</li>
+                <li><i class="fas fa-check-circle"></i> Nuevas funciones para personalización avanzada.</li>
+                <li><i class="fas fa-check-circle"></i> Correcciones de errores para una experiencia más fluida.</li>
+            </ul>
+        </section>
+        -->
+        <p>Pronto...</p>
+
+        <footer>
+            <p>© 2024 LATIN BOY KODI.</p>
+            <p>Este proyecto tiene fines educativos</p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        const lightbox = GLightbox({ selector: '.glightbox' });
+        AOS.init();
+
+        const menuToggle = document.getElementById('menu-toggle');
+        const sidebar = document.getElementById('sidebar');
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
