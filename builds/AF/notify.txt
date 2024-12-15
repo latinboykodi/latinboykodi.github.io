@@ -1,0 +1,10 @@
+2
+|||
+[COLORdodgerblue][B]Bienvenido al Latin Boy Wizard .[/B][/COLOR] 
+
+
+Todos los BUILDS requieren Kodi 21.0 o superior.
+
+Los BUILDS están listos para usarse, están basado en el add-on BALANDRO, tal vez tenga algunos detalles mínimos a configurar, se recomienda esperar a que se descarguen los binarios de Elementum y luego reiniciar Kodi para un funcionamiento correcto del BUILDS.
+
+¡Empieza a disfrutar con Latin Boy!

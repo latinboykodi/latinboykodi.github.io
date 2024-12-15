@@ -1,0 +1,12 @@
+{
+	"builds": [
+		{
+			"name": "Latin Boy AF",
+			"version": "1.0.0",
+			"url": "https://archive.org/download/latin-boy-build-v-1.0.0/LatinBoy_Build_v1.0.0.zip",
+			"icon": "https://raw.githubusercontent.com/latinboykodi/wizard/449592e65cf673c871905200d557487c78021de7/Build%20Artwork/icono%20LB%20AF.jpg",
+			"fanart": "https://raw.githubusercontent.com/latinboykodi/wizard/449592e65cf673c871905200d557487c78021de7/Build%20Artwork/screamshot%20AF.jpg",
+			"description": "Es un Build basado en el skin [COLORdodgerblue][B]Arctic Fuse[/B][/COLOR] con el Add-on Balandro como principal tiene películas, series, Torrent, TVEl BUILD  se probó en un firestick (1.5gb RAM) y funciona relativamente bien."
+		}
+	]
+}
