@@ -1,0 +1,406 @@
+# Kodi Media Center language file
+# Addon Name: Simple Wizard
+# Addon id: plugin.program.simple19wizard
+# Addon Provider: Slam, Sarge, BYB
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+#####----- MainMenu items -----#####
+#####----- 30000->30020 -------#####
+msgctxt "#30000"
+msgid "Menú del Wizard"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Instalar un build."
+msgstr ""
+
+msgctxt "#30002"
+msgid "Herramientas de mantenimiento"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Borrar todos los datos en tu configuración actual. Esta acción no puede deshacerse."
+msgstr ""
+
+msgctxt "#30004"
+msgid "Instalar Build"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Borrar la carpeta de paquetes para liberar espacio."
+msgstr ""
+
+msgctxt "#30006"
+msgid "Inicio limpio"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Borrar todos los datos. Advertencia, esto no puede deshacerse."
+msgstr ""
+
+msgctxt "#30008"
+msgid "Borrar la carpeta de miniaturas y el archivo de la base de datos Textures13. Solo debes borrar estos si deseas liberar espacio. Reinicia Kodi para que las miniaturas se repopulen."
+msgstr ""
+
+msgctxt "#30009"
+msgid "Una lista de preajustes para establecer el tamaño de la caché según el tamaño de la RAM de tu dispositivo."
+msgstr ""
+
+msgctxt "#30010"
+msgid "Builds"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Mantenimiento"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Inicio limpio"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Notificación"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Abrir el diálogo de notificaciones."
+msgstr ""
+
+msgctxt "#30015"
+msgid "Configuración"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Abrir el menú de configuración."
+msgstr ""
+
+msgctxt "#30017"
+msgid "URL de build inválida. Por favor, contacta al creador del build."
+msgstr ""
+
+msgctxt "#30018"
+msgid "Nombre desconocido"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Descripción no disponible."
+msgstr ""
+
+msgctxt "#30020"
+msgid "Versión"
+msgstr ""
+
+msgctxt "#30021"
+msgid "***Vista previa de video***"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Mantenimiento"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Borrar paquetes"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Borrar miniaturas"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Preajustes de caché de video K20"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Autorizar Debrid y Trakt"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Autorizar servicios"
+msgstr ""
+
+msgctxt "#30028"
+msgid "El wizard está listo para instalar tu build."
+msgstr ""
+
+msgctxt "#30029"
+msgid "Cancelar"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Continuar"
+msgstr ""
+
+msgctxt "#30031"
+msgid "¿Deseas borrar todos los datos antes de instalar?"
+msgstr ""
+
+msgctxt "#30032"
+msgid "No"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Requests está siendo instalado.\n Intenta nuevamente cuando Requests termine de instalarse."
+msgstr ""
+
+msgctxt "#30034"
+msgid "Extrayendo archivos..."
+msgstr ""
+
+msgctxt "#30035"
+msgid "Extrayendo archivos... ¡Hecho!"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Instalación completa. Haz clic en OK para forzar el cierre de Kodi."
+msgstr ""
+
+msgctxt "#30037"
+msgid "Las miniaturas han sido borradas. Reinicia Kodi para actualizar las miniaturas."
+msgstr ""
+
+msgctxt "#30038"
+msgid "Selecciona el tamaño de RAM de tu dispositivo."
+msgstr ""
+
+msgctxt "#30039"
+msgid "Borrar configuraciones avanzadas"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Las configuraciones avanzadas han sido borradas. Kodi se cerrará ahora para aplicar los cambios."
+msgstr ""
+
+msgctxt "#30041"
+msgid "Las configuraciones avanzadas han sido configuradas. Kodi se cerrará ahora para aplicar los cambios."
+msgstr ""
+
+msgctxt "#30042"
+msgid "¿Estás seguro de que deseas borrar todos los datos? Esta acción no puede deshacerse."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Borrando archivos y carpetas..."
+msgstr ""
+
+msgctxt "#30044"
+msgid "Borrando archivos y carpetas... Hecho"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Inicio limpio completo. Haz clic en OK para forzar el cierre de Kodi."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Paquetes borrados."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Una nueva versión de"
+msgstr ""
+
+msgctxt "#30048"
+msgid "está disponible."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Versión instalada:"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Nueva versión:"
+msgstr ""
+
+msgctxt "#30051"
+msgid "¿Te gustaría instalarla ahora?"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Selecciona los elementos que deseas conservar durante la instalación del build."
+msgstr ""
+
+msgctxt "#30053"
+msgid "Información del Build"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Build actual:"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Build instalado: "
+msgstr ""
+
+msgctxt "#30056"
+msgid "Versión instalada: "
+msgstr ""
+
+msgctxt "#30057"
+msgid "Borrar paquetes al iniciar:"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Selecciona los elementos que deseas conservar durante la instalación del build/inicio limpio:"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Guardar elementos"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Guardar mis favoritos"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Guardar mi información de Real Debrid (Resolveurl)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Guardar mis fuentes en el Administrador de Archivos"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Guardar mis configuraciones avanzadas"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Editar lista blanca"
+msgstr ""
+
+msgctxt "#30065"
+msgid ""
+msgstr ""
+
+msgctxt "#30950"
+msgid "[B]Ejecutar prueba de velocidad[/B]"
+msgstr ""
+
+msgctxt "#30951"
+msgid "[B]Cerrar[/B]"
+msgstr ""
+
+msgctxt "#30960"
+msgid "[B]Ejecutando la prueba de velocidad[/B]"
+msgstr ""
+
+msgctxt "#30961"
+msgid "Recuperando configuración de speedtest.net"
+msgstr ""
+
+msgctxt "#30962"
+msgid "Recuperando lista de servidores de speedtest.net"
+msgstr ""
+
+msgctxt "#30963"
+msgid "Probando desde {isp} ({ip})"
+msgstr ""
+
+msgctxt "#30964"
+msgid "Seleccionando el mejor servidor según la latencia"
+msgstr ""
+
+msgctxt "#30965"
+msgid "Alojado por: {sponsor}"
+msgstr ""
+
+msgctxt "#30966"
+msgid "Servidor anfitrión: {host}"
+msgstr ""
+
+msgctxt "#30967"
+msgid "Ciudad, Estado: {name}"
+msgstr ""
+
+msgctxt "#30968"
+msgid "País: {country}"
+msgstr ""
+
+msgctxt "#30969"
+msgid "Distancia: {d:0.2f} km"
+msgstr ""
+
+msgctxt "#30970"
+msgid "Ping: {latency} ms"
+msgstr ""
+
+msgctxt "#30971"
+msgid "Probando velocidad de descarga..."
+msgstr ""
+
+msgctxt "#30972"
+msgid "Velocidad de descarga: {speed:0.2f} Mbps"
+msgstr ""
+
+msgctxt "#30973"
+msgid "Probando velocidad de subida..."
+msgstr ""
+
+msgctxt "#30974"
+msgid "Velocidad de subida: {speed:0.2f} Mbps"
+msgstr ""
+
+msgctxt "#30980"
+msgid "[B]Velocidad de descarga recomendada para transmisión de video:[/B]"
+msgstr ""
+
+msgctxt "#30981"
+msgid "- 3 a 5 Mbps para ver video de calidad SD 480p"
+msgstr ""
+
+msgctxt "#30982"
+msgid "- 5 a 10 Mbps para ver video de calidad HD 720p"
+msgstr ""
+
+msgctxt "#30983"
+msgid "- 10+ Mbps para la mejor experiencia 1080p o TV en vivo"
+msgstr ""
+
+msgctxt "#30984"
+msgid "- 25 a 50+ Mbps para transmisión 4K"
+msgstr ""
+
+msgctxt "#30985"
+msgid "[I]Las velocidades reportadas pueden deberse a las limitaciones del dispositivo.[/I]"
+msgstr ""
+
+######-----Configuración-----#####
+
+msgctxt "#30100"
+msgid "Registro"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Configuración para el registro de Addon"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Depuración"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Acciones"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Información de la ventana"
+msgstr ""
+
+msgctxt "#30105"
+msgid "General"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Preajustes de caché de video K21"
+msgstr ""
