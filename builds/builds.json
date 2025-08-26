@@ -22,6 +22,16 @@
 
 		{
 		
+			"name": "AURA",
+			"version": "1.0.0",
+			"url": "https://archive.org/download/latin-boy-build-v-1.0.0/aura%20-%20copia.zip",
+			"icon": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/icono%20LB%20AF.jpg",
+			"fanart": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/screamshot%20AF.jpg",
+			"description": "Es un Build basado en el skin [COLORdodgerblue][B]Arctic Fuse[/B][/COLOR] con el Add-on Balandro como principal tiene películas, series, Torrent, TVEl BUILD  se probó en un firestick (1.5gb RAM) y funciona relativamente bien."
+		},
+
+		{
+		
 			"name": "DSTV02 PRUEBA",
 			"version": "1.1.0",
 			"url": "https://archive.org/download/dstv04/dstv04.zip",
