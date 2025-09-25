@@ -1,24 +1,45 @@
-{
-	"builds": [
-		{
-			"name": "Latin Boy AF",
-			"version": "1.0.0",
-			"url": "https://archive.org/download/latin-boy-build-v-1.0.0/LatinBoy_Build_v1.0.0.zip",
-			"icon": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/icono%20LB%20AF.jpg",
-			"fanart": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/screamshot%20AF.jpg",
-			"description": "Es un Build basado en el skin [COLORdodgerblue][B]Arctic Fuse[/B][/COLOR] con el Add-on Balandro como principal tiene películas, series, Torrent, TVEl BUILD  se probó en un firestick (1.5gb RAM) y funciona relativamente bien."
-		
-		},
+<?xml version="1.0" encoding="UTF-8"?>
+<builds>
+  
+  <build>
+    <name>Latin Boy AF</name>
+    <version>1.0.0</version>
+    <url>https://archive.org/download/latin-boy-build-v-1.0.0/LatinBoy_Build_v1.0.0.zip</url>
+    <icon>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/icono%20LB%20AF.jpg</icon>
+    <fanart>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/screamshot%20AF.jpg</fanart>
+    <description><![CDATA[
+Es un Build basado en el skin [COLORdodgerblue][B]Arctic Fuse[/B][/COLOR] 
+con el Add-on Balandro como principal. 
+Tiene películas, series, Torrent y TV. 
 
-		{
-		
-			"name": "AURA MOD",
-			"version": "1.1.2",
-			"url": "https://archive.org/download/aura-mod-v-1.1.2/AURA_MOD_v1.1.2.zip",
-			"icon": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/icono%20LB%20AURAMOD.jpg",
-			"fanart": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/Captura%20de%20pantalla%20AURAMOD.jpg",
-			"description": "Es un Build basado en el skin [COLORdodgerblue][B]AURA MOD[/B][/COLOR] con el Add-on Balandro como principal tiene películas, series, Torrent, TVEl BUILD  se probó en un firestick (1.5gb RAM) y funciona relativamente bien."
-		}
-		
-	]
-}
+El BUILD se probó en un Firestick (1 GB RAM) 
+y funciona relativamente bien.
+    ]]></description>
+  </build>
+
+  <build>
+    <name>AURA MOD</name>
+    <version>1.0.2</version>
+    <url>https://archive.org/download/latin-boy-build-v-1.0.0/AURA_MOD_v1.0.2.zip</url>
+    <icon>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/icono%20LB%20AURAMOD.jpg</icon>
+    <fanart>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/Captura%20de%20pantalla%20AURAMOD.jpg</fanart>
+    <description><![CDATA[
+Es un Build basado en el skin [COLORdodgerblue][B]AURA MOD[/B][/COLOR] 
+con el Add-on Balandro como principal. 
+Tiene películas, series, Torrent y TV. 
+
+El BUILD se probó en un MI Stick (1 GB RAM) 
+y funciona relativamente bien.
+
+ADDONS de video:
+
+- Balandro 
+- Blackghost 
+- Elementum 
+- Jacktook 
+- TMDb Helper 
+- YouTube
+    ]]></description>
+  </build>
+
+</builds>
