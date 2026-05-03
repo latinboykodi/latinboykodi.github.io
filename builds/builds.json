@@ -13,21 +13,12 @@
 		{
 		
 			"name": "BINGIE",
-			"version": "1.0.1",
-			"url": "https://archive.org/download/latin-boy-builds_202509/BINGIE%20v1.0.1.zip",
-			"icon": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/icono%20BINGIE.jpg",
-			"fanart": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/Captura%20bingie.jpg",
-			"description": "Es un Build basado en el skin [COLORdarkred][B]BINGIE[/B][/COLOR] con el Add-on Balandro como principal.\nTiene películas, series, Torrent y TV.\n\nSe probó en un MI Stick (1 GB RAM).\nADDONS de video:\n- Balandro\n- Blackghost\n- Elementum\n- Jacktook\n- TMDb Helper\n- YouTube"
-		},
-		{
-		
-			"name": "BINGIE prueba",
-			"version": "1.0",
-			"url": "https://archive.org/download/latin-boy-builds_202509/012.zip",
+			"version": "1.1.0",
+			"url": "https://archive.org/download/latin-boy-builds_202509/BINGIE%20v1.1.0.zip",
 			"icon": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/icono%20BINGIE.jpg",
 			"fanart": "https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/Captura%20bingie.jpg",
 			"description": "Es un Build basado en el skin [COLORdarkred][B]BINGIE[/B][/COLOR] con el Add-on Balandro como principal.\nTiene películas, series, Torrent y TV.\n\nSe probó en un MI Stick (1 GB RAM).\nADDONS de video:\n- Balandro\n- Blackghost\n- Elementum\n- Jacktook\n- TMDb Helper\n- YouTube"
 		}
-		
+				
 	]
 }
