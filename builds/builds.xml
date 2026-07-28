@@ -13,11 +13,11 @@ Se probó en un MI Stick (1 GB RAM)
 y funciona relativamente bien.</description>
   </builds>
   <builds>
-    <name>BINGIE</name>
-    <version>1.1.0</version>
-    <url>https://archive.org/download/latin-boy-builds_202509/BINGIE%20v1.1.0.zip</url>
-    <icon>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/icono%20BINGIE.jpg</icon>
-    <fanart>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/Captura%20bingie.jpg</fanart>
+    <name>FENtastic</name>
+    <version>1.0.0</version>
+    <url>https://archive.org/download/latin-boy-builds_202509/FENtastic%20v%201.0.0.zip</url>
+    <icon>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/fentastic-ico.jpg</icon>
+    <fanart>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/refs/heads/main/recursos/img/fent%20captura.jpg</fanart>
     <description>Es un Build basado en el skin [COLORdarkred][B]BINGIE[/B][/COLOR] con el Add-on Balandro como principal.
 Tiene películas, series, Torrent y TV.
 
@@ -29,5 +29,17 @@ ADDONS de video:
 - Jacktook
 - TMDb Helper
 - YouTube</description>
+  </builds>
+    <builds>
+    <name>Latin Boy AF</name>
+    <version>1.0.0</version>
+    <url>https://archive.org/download/latin-boy-build-v-1.0.0/LatinBoy_Build_v1.0.0.zip</url>
+    <icon>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/icono%20LB%20AF.jpg</icon>
+    <fanart>https://raw.githubusercontent.com/latinboykodi/latinboykodi.github.io/main/recursos/img/screamshot%20AF.jpg</fanart>
+    <description>Es un Build basado en el skin [COLORdodgerblue][B]Arctic Fuse[/B][/COLOR] con el Add-on Balandro como principal.
+Tiene películas, series, Torrent y TV.
+
+Se probó en un MI Stick (1 GB RAM)
+y funciona relativamente bien.</description>
   </builds>
 </root>
